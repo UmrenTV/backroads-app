@@ -11,3 +11,24 @@ export const socialLinks = [
     { id: 3, href: "https://www.instagram.com", icon: "fab fa-instagram" },
     { id: 4, href: "https://www.linkedin.com", icon: "fab fa-linkedin" },
 ];
+
+export const services = [
+    {
+        id: 1,
+        icon: "fas fa-wallet fa-fw",
+        title: "saving money",
+        text: "Our tours are affordable for all.",
+    },
+    {
+        id: 2,
+        icon: "fas fa-tree fa-fw",
+        title: "endless hiking",
+        text: "Go where no man has gone before.",
+    },
+    {
+        id: 3,
+        icon: "fas fa-socks fa-fw",
+        title: "amazing comfort",
+        text: "The best comfort is guaranteed.",
+    },
+];
