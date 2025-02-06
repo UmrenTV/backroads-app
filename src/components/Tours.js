@@ -1,5 +1,4 @@
 import Title from "./Title";
-
 import { tours } from "../data";
 
 function Tours() {
@@ -17,7 +16,6 @@ function Tours() {
                         date,
                         title,
                         description,
-                        icon,
                         country,
                         duration,
                         price,
@@ -40,7 +38,7 @@ function Tours() {
                                     <div className="tour-footer">
                                         <p>
                                             <span>
-                                                <i className={icon}></i>
+                                                <i className="fas fa-map"></i>
                                             </span>
                                             {country}
                                         </p>

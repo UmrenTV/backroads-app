@@ -46,7 +46,6 @@ export const tours = [
         title: "Tibet Adventure",
         description:
             "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-        icon: "fas fa-map",
         country: "china",
         duration: "6 days",
         price: "from $2100",
@@ -58,7 +57,6 @@ export const tours = [
         title: "best of java",
         description:
             "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-        icon: "fas fa-map",
         country: "indonesia",
         duration: "11 days",
         price: "from $1400",
@@ -70,7 +68,6 @@ export const tours = [
         title: "explore hong kong",
         description:
             "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-        icon: "fas fa-map",
         country: "hong kong",
         duration: "8 days",
         price: "from $5000",
@@ -78,11 +75,10 @@ export const tours = [
     {
         id: 4,
         image: tourFour,
-        date: "december 5th, 2019",
+        date: "december 5th, 2020",
         title: "kenya highlights",
         description:
             "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-        icon: "fas fa-map",
         country: "kenya",
         duration: "20 days",
         price: "from $3300",
