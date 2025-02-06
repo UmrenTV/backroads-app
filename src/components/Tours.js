@@ -1,3 +1,8 @@
+import tourOne from "../images/tour-1.jpeg";
+import tourTwo from "../images/tour-2.jpeg";
+import tourThree from "../images/tour-3.jpeg";
+import tourFour from "../images/tour-4.jpeg";
+
 function Tours() {
     return (
         <section className="section" id="tours">
@@ -10,11 +15,7 @@ function Tours() {
             <div className="section-center featured-center">
                 <article className="tour-card">
                     <div className="tour-img-container">
-                        <img
-                            src="./images/tour-1.jpeg"
-                            className="tour-img"
-                            alt=""
-                        />
+                        <img src={tourOne} className="tour-img" alt="" />
                         <p className="tour-date">august 26th, 2020</p>
                     </div>
                     <div className="tour-info">
@@ -42,11 +43,7 @@ function Tours() {
 
                 <article className="tour-card">
                     <div className="tour-img-container">
-                        <img
-                            src="./images/tour-2.jpeg"
-                            className="tour-img"
-                            alt=""
-                        />
+                        <img src={tourTwo} className="tour-img" alt="" />
                         <p className="tour-date">october 1th, 2020</p>
                     </div>
                     <div className="tour-info">
@@ -72,11 +69,7 @@ function Tours() {
 
                 <article className="tour-card">
                     <div className="tour-img-container">
-                        <img
-                            src="./images/tour-3.jpeg"
-                            className="tour-img"
-                            alt=""
-                        />
+                        <img src={tourThree} className="tour-img" alt="" />
                         <p className="tour-date">september 15th, 2020</p>
                     </div>
                     <div className="tour-info">
@@ -102,11 +95,7 @@ function Tours() {
 
                 <article className="tour-card">
                     <div className="tour-img-container">
-                        <img
-                            src="./images/tour-4.jpeg"
-                            className="tour-img"
-                            alt=""
-                        />
+                        <img src={tourFour} className="tour-img" alt="" />
                         <p className="tour-date">december 5th, 2019</p>
                     </div>
                     <div className="tour-info">

@@ -1,3 +1,5 @@
+import aboutPhoto from "../images/about.jpeg";
+
 function About() {
     return (
         <section className="section" id="about">
@@ -10,7 +12,7 @@ function About() {
             <div className="section-center about-center">
                 <div className="about-img">
                     <img
-                        src="./images/about.jpeg"
+                        src={aboutPhoto}
                         className="about-photo"
                         alt="awesome beach"
                     />
