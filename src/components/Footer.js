@@ -20,7 +20,12 @@ function Footer() {
             <ul className="footer-icons">
                 {socialLinks.map(({ id, href, icon }) => (
                     <li key={id}>
-                        <a href={href} target="_blank" className="footer-icon">
+                        <a
+                            href={href}
+                            target="_blank"
+                            className="footer-icon"
+                            rel="noreferrer"
+                        >
                             <i className={icon}></i>
                         </a>
                     </li>
