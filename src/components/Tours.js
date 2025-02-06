@@ -1,3 +1,5 @@
+import Title from "./Title";
+
 import tourOne from "../images/tour-1.jpeg";
 import tourTwo from "../images/tour-2.jpeg";
 import tourThree from "../images/tour-3.jpeg";
@@ -7,9 +9,7 @@ function Tours() {
     return (
         <section className="section" id="tours">
             <div className="section-title">
-                <h2>
-                    featured <span>tours</span>
-                </h2>
+                <Title title="our" subtitle="tours" />
             </div>
 
             <div className="section-center featured-center">
