@@ -1,3 +1,8 @@
+import tourOne from "./images/tour-1.jpeg";
+import tourTwo from "./images/tour-2.jpeg";
+import tourThree from "./images/tour-3.jpeg";
+import tourFour from "./images/tour-4.jpeg";
+
 export const pageLinks = [
     { id: 1, href: "#home", text: "home" },
     { id: 2, href: "#about", text: "about" },
@@ -30,5 +35,56 @@ export const services = [
         icon: "fas fa-socks fa-fw",
         title: "amazing comfort",
         text: "The best comfort is guaranteed.",
+    },
+];
+
+export const tours = [
+    {
+        id: 1,
+        image: tourOne,
+        date: "august 26th, 2020",
+        title: "Tibet Adventure",
+        description:
+            "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+        icon: "fas fa-map",
+        country: "china",
+        duration: "6 days",
+        price: "from $2100",
+    },
+    {
+        id: 2,
+        image: tourTwo,
+        date: "october 1st, 2020",
+        title: "best of java",
+        description:
+            "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+        icon: "fas fa-map",
+        country: "indonesia",
+        duration: "11 days",
+        price: "from $1400",
+    },
+    {
+        id: 3,
+        image: tourThree,
+        date: "september 15th, 2020",
+        title: "explore hong kong",
+        description:
+            "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+        icon: "fas fa-map",
+        country: "hong kong",
+        duration: "8 days",
+        price: "from $5000",
+    },
+    {
+        id: 4,
+        image: tourFour,
+        date: "december 5th, 2019",
+        title: "kenya highlights",
+        description:
+            "Voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+        icon: "fas fa-map",
+        country: "kenya",
+        duration: "20 days",
+        price: "from $3300",
     },
 ];
